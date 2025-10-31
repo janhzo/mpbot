@@ -95,10 +95,12 @@ Create a file named `.env` in the project root and add your keys:
 
 
 OPENAI_API_KEY=sk-your-real-openai-key-here
+
 OPENAI_MODEL=gpt-4o-mini
 
 🧭 Architecture Flow
 graph TD
+
     U[User @ ASI:One] -->|start| A[TenderReader Agent]
     A -->|Excel + LLM Classification| B[TenderRanker Agent]
     B -->|Scores & prioritizes| C[TenderSupervisor Agent]
