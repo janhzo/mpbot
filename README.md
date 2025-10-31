@@ -90,30 +90,28 @@ or add API data.
 | Python | 3.10+ |
 
 ### 🔐 Create `.env` File (MANDATORY)
-Create a file in the project root named `.env`:
 
-```bash
+Create a file named `.env` in the project root and add your keys:
+
+
 OPENAI_API_KEY=sk-your-real-openai-key-here
 OPENAI_MODEL=gpt-4o-mini
 
+🧭 Architecture Flow
 graph TD
     U[User @ ASI:One] -->|start| A[TenderReader Agent]
     A -->|Excel + LLM Classification| B[TenderRanker Agent]
     B -->|Scores & prioritizes| C[TenderSupervisor Agent]
     C -->|Report + validation| U
-
-
+    
 📜 License & Credits
 
-Author: @janhzo /Project Zero
-
-@Project0zcl
-
+Author: @janhzo
+ / Project Zero (@Project0zcl)
 Framework: Fetch.ai uAgents
 
 License: MIT
-
-Version: 0.2 
+Version: 0.2 (Demo)
 
 ![tag:innovationlab](https://img.shields.io/badge/innovationlab-3D8BD3)
 ![tag:hackathon](https://img.shields.io/badge/hackathon-5F43F1)
