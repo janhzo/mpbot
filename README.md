@@ -3,6 +3,8 @@
 AI-powered multi-agent system for **tender analysis, ranking and prioritization** across any industry.  
 **Medical supplies** are used as the proof-of-concept demo.
 
+Anothe one proof-of-concept is insert a digital office ia operator's work together looking for niches and opportunities.
+
 > 💡 Built with [uAgents](https://github.com/fetchai/uAgents) for autonomous collaboration and real-time decision-making.
 
 ---
@@ -58,24 +60,25 @@ We selected **medical supplies** as a high-impact real-world demo.
   - 🧩 Competition
 - Delivers an actionable **TOP 5** for decision-makers in seconds.
 
-> 🧠 The same logic can be adapted to any sector with zero code changes.
+> 🧠 The same logic can be adapted to any sector.
 
 ---
 
 ## 🧱 Works for Any Industry
 
-| Industry | Configuration |
-|-----------|----------------|
-| 🏗️ Construction | `data/construction.xlsx` + custom LLM prompt |
-| 💻 IT & Software | `data/software_licitaciones.xlsx` |
-| 🚚 Logistics | `data/transporte.xlsx` |
-| 📚 Education | `data/libros.xlsx` |
+| Industry |
+|-----------|
+| 🏗️ Construction | 
+| 💻 IT & Software | 
+| 🚚 Logistics | 
+| 📚 Education |
 
 Just update:
 - Excel file in `/data/`
 - LLM prompt in `modules/llm_classifier.py`
 - Scoring weights in `modules/analytics.py`
 
+or add API data.
 ---
 
 ## 🧰 Requirements
@@ -92,3 +95,22 @@ Create a file in the project root named `.env`:
 ```bash
 OPENAI_API_KEY=sk-your-real-openai-key-here
 OPENAI_MODEL=gpt-4o-mini
+
+graph TD
+    U[User @ ASI:One] -->|start| A[TenderReader Agent]
+    A -->|Excel + LLM Classification| B[TenderRanker Agent]
+    B -->|Scores & prioritizes| C[TenderSupervisor Agent]
+    C -->|Report + validation| U
+
+
+📜 License & Credits
+
+Author: @janhzo /Project Zero
+
+@Project0zcl
+
+Framework: Fetch.ai uAgents
+
+License: MIT
+
+Version: 0.2 
