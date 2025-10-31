@@ -28,9 +28,9 @@ However, MPBOT is fully modular and works for **construction, IT, logistics, edu
 
 | Agent Name | Role | Address | Port | Inspector |
 |-------------|------|----------|-------|------------|
-| 🧭 **TenderReader** | Reads tenders from Excel + LLM classification | `agent1qg3cktzapjdru3q6g924ytsghr3ehd4vqyk5ya828c2m93kdexpeyjxy5t4` | 8000 | [Inspector](https://agentverse.ai/inspect/?address=agent1qg3cktzapjdru3q6g924ytsghr3ehd4vqyk5ya828c2m93kdexpeyjxy5t4) |
-| 📊 **TenderRanker** | Analyzes & ranks tenders | `agent1q09jyj082tfyta9075vx9pdj0f6xj3zzjpk6529a564ffgu2zwd8203u7xj` | 8001 | [Inspector](https://agentverse.ai/inspect/?address=agent1q09jyj082tfyta9075vx9pdj0f6xj3zzjpk6529a564ffgu2zwd8203u7xj) |
-| 🧠 **TenderSupervisor** | Validates, logs & reports results | `agent1q2gmu2xd3yalrue7mwd0wkq35xqw48p70djp5274vxyqvnf7cn735wdyuc5` | 8002 | [Inspector](https://agentverse.ai/inspect/?address=agent1q2gmu2xd3yalrue7mwd0wkq35xqw48p70djp5274vxyqvnf7cn735wdyuc5) |
+| 🧭 **TenderReader** | Reads tenders from Excel + LLM classification | `agent1qg3cktzapjdru3q6g924ytsghr3ehd4vqyk5ya828c2m93kdexpeyjxy5t4` | 8000 | [Inspector](https://agentverse.ai/inspect/?uri=http%3A//127.0.0.1%3A8000&address=agent1qg3cktzapjdru3q6g924ytsghr3ehd4vqyk5ya828c2m93kdexpeyjxy5t4) |
+| 📊 **TenderRanker** | Analyzes & ranks tenders | `agent1q09jyj082tfyta9075vx9pdj0f6xj3zzjpk6529a564ffgu2zwd8203u7xj` | 8001 | [Inspector](https://agentverse.ai/inspect/?uri=http://127.0.0.1:8001&address=agent1q09jyj082tfyta9075vx9pdj0f6xj3zzjpk6529a564ffgu2zwd8203u7xj) |
+| 🧠 **TenderSupervisor** | Validates, logs & reports results | `agent1q2gmu2xd3yalrue7mwd0wkq35xqw48p70djp5274vxyqvnf7cn735wdyuc5` | 8002 | [Inspector](https://agentverse.ai/inspect/?uri=http%3A//127.0.0.1%3A8002&address=agent1q2gmu2xd3yalrue7mwd0wkq35xqw48p70djp5274vxyqvnf7cn735wdyuc5) |
 
 ---
 
