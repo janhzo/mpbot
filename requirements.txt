@@ -1,0 +1,13 @@
+# uAgents core
+uagents
+uagents-core
+
+# Python para manejo de Excel
+pandas
+openpyxl
+
+# OpenAI API
+openai
+
+# Opcional: logging y utilidades
+python-dotenv
